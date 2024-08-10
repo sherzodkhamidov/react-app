@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: start;
+    background-color: #f9f9f9;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .formContainer {
+    width: 600px;
+  
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: start;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  inputField,
+  selectField {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #0056d2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0041a8;
+  }
+  
+  text {
+    margin: 8px 0;
+    color: #6b6e7b;
+    font-size: 14px;
+  }
+  .card{
+    border:none;
+    border-radius: 8px;
+    background-color: #e5e5e6;
+    padding: 30px;
+    margin: 10px 0;
+  }
+  
